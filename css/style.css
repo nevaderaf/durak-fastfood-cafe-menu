@@ -5,7 +5,7 @@
 
   body {
       margin: auto;
-      padding-top: 40px;
+      padding-top: 40px;  /* Don't change it. */
       padding-bottom: 50px;
       background-color: white;
   }
@@ -95,6 +95,7 @@
 
   .price-tag {
     float: right;
+    margin-right: 2%;
     background-color: #333;
     border-radius: 10%;
     color:whitesmoke;
