@@ -5,7 +5,7 @@
 
   body {
       margin: auto;
-      padding-top: 60px;
+      padding-top: 40px;
       padding-bottom: 50px;
       background-color: white;
   }
@@ -67,4 +67,24 @@
     line-height: 5px;
     height: 30px;
     width: 100%;
+  }
+
+  .topnav {
+    padding:3px 1px 3px 1px;
+    background-color: #FDC537;
+    overflow: hidden;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 6px;
+    text-decoration: none;
+  }
+
+  .topnav a:hover {
+    background-color: #333;
+    color: #FDC537;
   }
