@@ -55,6 +55,7 @@
     width: 100%;
     text-align: center;
     background: #FDC537;
+    opacity: 0.9;
   }
 
   .footer {
@@ -67,6 +68,7 @@
     line-height: 5px;
     height: 30px;
     width: 100%;
+    opacity: 0.9;
   }
 
   .topnav {
