@@ -4,6 +4,8 @@
 
   body {
       margin: auto;
+      padding-top: 140px;
+      padding-bottom: 50px;
       background-color: white;
   }
 
@@ -41,3 +43,22 @@
     overflow: auto;
   }
   
+  .header {
+    padding: 30px;
+    position: relative;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background: #FDC537;
+  }
+
+  .footer {
+    background-color: #FDC537;
+    text-align: center;
+    padding: 1px;
+    position: relative;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
