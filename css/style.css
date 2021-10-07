@@ -5,7 +5,7 @@
 
   body {
       margin: auto;
-      padding-top: 40px;  /* Don't change it. */
+      padding-top: 55px;  /* Don't change it. */
       padding-bottom: 50px;
       background-color: white;
   }
@@ -50,7 +50,7 @@
     position: relative;
     position: fixed;
     top: 0;
-    height: 40px;
+    height: 55px;
     line-height: 5px;
     width: 100%;
     text-align: center;
@@ -120,4 +120,21 @@
     float: left;
     margin-left: 1%;
     margin-right: 1%;
+  }
+
+  .logo-img-footer{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin-right: 3%;
+  }
+
+  .logo-img-header{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-left: 2%;
+    padding-bottom: 3px;
   }
