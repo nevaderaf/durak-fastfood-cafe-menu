@@ -98,7 +98,7 @@
   }
 
   .price-tag {
-    background-color: #333;
+    background-color:#000;
     float: right;
     margin:auto;
     margin-right: 12%;
@@ -188,7 +188,7 @@
       content: '';
       width: 32px;
       height: 32px;
-      background-image: url(../images/language/tr_flag_32.png);
+      background-image: url(../images/language/dual_flag_32_final.png);
   }
   
   .lang-menu:hover ul {
