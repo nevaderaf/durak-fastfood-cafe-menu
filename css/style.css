@@ -60,11 +60,12 @@
   }
 
   .footer {
-    background-color: #FDC537;
+    background-color: #000;
     text-align: center;
     padding: 1px;
     position: relative;
     position: fixed;
+    color:#FDC537;
     bottom: 0;
     line-height: 5px;
     height: 30px;
