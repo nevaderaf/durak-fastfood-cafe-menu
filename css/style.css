@@ -9,6 +9,7 @@
       padding-bottom: 50px;
       background-color: white;
       box-sizing: border-box;
+      background-image: url(../images/background_img.jpg);
   }
 
   .card {
