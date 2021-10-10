@@ -9,32 +9,40 @@
       padding-bottom: 50px;
       background-color: white;
       box-sizing: border-box;
-      background-image: url(../images/background_img.jpg);
+      /*background-image: url(../images/background_img.jpg);*/
   }
 
   .card {
-    border-style: solid;
+    /*border-style: solid;
     border-width: 2px;
     border-color: lightgrey;
     border-radius: 1.4rem;
-    background-color: #f5f5f5ef;
-    text-align: center;
+    background-color: white;*/
+    text-align:center;
     float: left;
-    padding: 8px;
-    width: 150px;
-    height: 200px;
-    margin: 5px;
-    margin-left: 5%;
+    width: 160px;
+    height: 180px;
+    margin: 1px;
+    margin-left: 3.5%;
+  }
+
+  .menu-tag {
+    position: relative; top: -30px;
+    background-color:#000;
+    margin:auto;
+    border-radius: 15px;
+    color:whitesmoke;
+    padding: 5px 12px 5px 12px;
+    z-index: 1;
   }
 
   .img {
-    border: 1px solid #ddd;
-    border-radius: 30%;
-    background-color: darkgoldenrod;
-    height: 100px;
-    width: 100%;
+    border: 6px solid #fce205;
+    border-radius: 50%;
+    background-color: #fce205;
+    height: 75%;
+    width: 75%;
     margin: auto;
-    padding: 2px;
   }
 
   .img:hover {
@@ -58,6 +66,7 @@
     text-align: center;
     background: black;
     opacity: 0.9;
+    z-index: 2;
   }
 
   .footer {
@@ -72,6 +81,21 @@
     height: 30px;
     width: 100%;
     opacity: 0.9;
+    z-index: 2;
+  }
+
+  .fakenav {
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .fakenav div{
+    background-color:lightgray;
+    margin:auto;
+    height: 40px;
+    width: 130px;
   }
 
   .topnav {
@@ -95,30 +119,29 @@
   }
 
   .food-slot {
-    background-color: #f5f5f5ef;
-    text-align: center;
+    background-color: white;
+    text-align: left;
+    font-size: 0.75rem;
   }
 
-  .price-tag {
+  /*.price-tag {
     background-color:#000;
     float: right;
     margin:auto;
     margin-right: 12%;
     border-radius: 10%;
     color:whitesmoke;
-  }
+  }*/
 
   .sub-menu-img {
-    border: 1px solid #ddd;
-    border-radius: 30%;
-    background-color: darkgoldenrod;
-    height: 80px;
-    width: 80px;
-    padding: 3px;;
+    height: 150px;
+    width: 150px;
+    padding: 3px;
+    float: left;
   }
 
   .sub-menu-img-box {
-    width: 100px;
+    width: 150px;
     height: 100%;
     float: left;
     margin-left: 1%;
