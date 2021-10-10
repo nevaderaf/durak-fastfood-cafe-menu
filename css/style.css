@@ -91,12 +91,13 @@
     overflow: hidden;
   }
 
-  .fakenav div{
+  /*.fakenav div{
+
     background-color:lightgray;
     margin:auto;
     height: 40px;
     width: 130px;
-  }
+  }*/
 
   .topnav {
     padding:12px 1px 3px 1px;
@@ -171,6 +172,7 @@
     border-color: white;
     height: 75px;
     width: 75px;
+    margin-top: 16%;
     margin-left: 1%;
   }
 
