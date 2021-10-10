@@ -5,7 +5,7 @@
 
   body {
       margin: auto;
-      padding-top: 62px;
+      padding-top: 105px;
       padding-bottom: 50px;
       background-color: #FCEDE0;
       box-sizing: border-box;
@@ -85,11 +85,16 @@
   }
 
   .fakenav {
-    position:relative;
+    position:fixed;
+    display: block;
+    top: 60px;
     height: 43px;
+    width: 100%;
     background-color:#FCEDE0;
     text-align: center;
     overflow: hidden;
+    margin: auto;
+    z-index: -1;
   }
 
   .fakenav div{
@@ -137,16 +142,16 @@
   }*/
 
   .sub-menu-img {
-    height: 150px;
-    width: 150px;
+    height: 140px;
+    width: 140px;
     padding: 3px;
     margin-left: 1%;
     float: left;
   }
 
   .sub-menu-img-box {
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
     float: left;
     margin-left: 1%;
     margin-right: 1%;
