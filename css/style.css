@@ -37,11 +37,11 @@
   }
 
   .img {
-    border: 6px solid #fce205;
+    /*border: 6px solid #fce205;*/
     border-radius: 50%;
-    background-color: #fce205;
-    height: 75%;
-    width: 75%;
+    background-color:white;
+    height: 100%;
+    width: 100%;
     margin: auto;
   }
 
