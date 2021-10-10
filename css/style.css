@@ -40,8 +40,8 @@
     /*border: 6px solid #fce205;*/
     border-radius: 50%;
     background-color:white;
-    height: 80%;
-    width: 80%;
+    height: 73%;
+    width: 73%;
     margin: auto;
   }
 
@@ -88,7 +88,7 @@
     position:fixed;
     display: block;
     top: 60px;
-    height: 43px;
+    height: 43.25px;
     width: 100%;
     background-color:#FCEDE0;
     text-align: center;
@@ -142,16 +142,16 @@
   }*/
 
   .sub-menu-img {
-    height: 140px;
-    width: 140px;
+    height: 138px;
+    width: 138px;
     padding: 3px;
     margin-left: 1%;
     float: left;
   }
 
   .sub-menu-img-box {
-    width: 140px;
-    height: 140px;
+    width: 138px;
+    height: 138px;
     float: left;
     margin-left: 1%;
     margin-right: 1%;
