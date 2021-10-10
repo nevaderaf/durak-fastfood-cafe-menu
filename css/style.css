@@ -9,7 +9,7 @@
       padding-bottom: 50px;
       background-color: #FCEDE0;
       box-sizing: border-box;
-      /*background-image: url(../images/background_img.jpg);*/
+      background-image: url(../images/background_img.jpg);
   }
 
   .card {
