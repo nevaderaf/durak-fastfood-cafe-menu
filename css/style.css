@@ -145,8 +145,14 @@
     height: 138px;
     width: 138px;
     padding: 3px;
-    margin-left: 1%;
+    margin-left: 7%;
     float: left;
+    transition: transform 0.2s; /*To Enlarge on hover*/
+  }
+
+  .sub-menu-img:hover { /*To Enlarge on hover*/
+    -webkit-transform: scale(1.7);
+    transform: scale(1.7);
   }
 
   .sub-menu-img-box {
