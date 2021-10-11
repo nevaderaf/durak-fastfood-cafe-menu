@@ -39,9 +39,9 @@
   .img {
     /*border: 6px solid #fce205;*/
     border-radius: 50%;
-    background-color:white;
-    height: 73%;
-    width: 73%;
+    /*background-color:white;*/
+    height: 80%;
+    width: 80%;
     margin: auto;
   }
 
