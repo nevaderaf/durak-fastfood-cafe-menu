@@ -106,14 +106,14 @@
   }
 
   .topnav {
-    background-color: #2b2b2b;
+    background-color: #333;
     overflow: auto;
     white-space: nowrap;
   }
 
   .topnav a {
     display: inline-block;
-    color: #FDC537;
+    color: #fee10e;
     text-align: center;
     padding: 12px;
     text-decoration: none;
