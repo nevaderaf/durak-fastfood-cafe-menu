@@ -5,7 +5,7 @@
 
   body {
       margin: auto;
-      padding-top: 105px;
+      padding-top: 70px;
       padding-bottom: 50px;
       background-color: #FCEDE0;
       box-sizing: border-box;
@@ -86,7 +86,7 @@
   .fakenav {
     position:fixed;
     display: block;
-    top: 60px;
+    top: 50px;
     height: 43.25px;
     width: 100%;
     background-color:#FCEDE0;
@@ -106,15 +106,14 @@
   }
 
   .topnav {
-    padding:12px 1px 3px 1px;
-    background-color: #FDC537;
-    overflow: hidden;
+    background-color: #2b2b2b;
+    overflow: auto;
+    white-space: nowrap;
   }
 
   .topnav a {
-    float: left;
-    display: block;
-    color: #000;
+    display: inline-block;
+    color: #FDC537;
     text-align: center;
     padding: 6px;
     text-decoration: none;
@@ -122,7 +121,7 @@
 
   .topnav a:hover {
     background-color: #333;
-    color: #FDC537;
+    color: #2b2b2b;
   }
 
   .food-slot {
@@ -152,7 +151,6 @@
   .sub-menu-img:hover { /*To Enlarge on hover*/
     -webkit-transform: scale(1.7);
     transform: scale(1.7)
-    
   }
 
   .sub-menu-img-box {
@@ -281,3 +279,6 @@
   .en::before {
       background-image: url(../images/language/gb_flag_32.png);
   }
+
+/* Horizontally Scrollable Navbar (topnav)
+
